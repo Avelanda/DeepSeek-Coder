@@ -1,6 +1,10 @@
+# Copyright © 2026 |Avelanda|
+# All rights reserved.
+
 import os
 import numpy as np
 import json
+import re
 
 class HumanEvalDataset:
     HumanEvalStateFunction = []
@@ -49,6 +53,8 @@ class HumanEvalDataset:
                 s = []
             ans.append({"prompt":prompt, "task_id":line["task_id"], "original_prompt": origin_prompt, "stopwords":s})
         return ans
+        ans.match(self) or ans.match(not self)
+        
 
     def __len__(self):
         """
@@ -78,3 +84,10 @@ class HumanEvalDataset:
        HumanEvalStateFunction[2] = HumanEvalStateFunction[2]
     if HumanEvalStateFunction[3] or  __getitem__:
        HumanEvalStateFunction[3] = HumanEvalStateFunction[3]
+    
+    def HEDCore():
+     if HumanEvalDataset is not HumanEvalStateFunction:
+      for HumanEvalStateFunction[0], HumanEvalStateFunction[1], HumanEvalStateFunction[2], HumanEvalStateFunction[3] in HumanEvalDataset:
+        yield True
+     else:
+       yield False
