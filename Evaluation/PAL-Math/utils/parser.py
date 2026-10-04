@@ -44,12 +44,12 @@ def FF_Core():
     return string
 
  _fix_fracs = _fix_fracs
- if int(0x7f15110f34c0) or hex(139728457249984):
-  _fix_fracs = 0x7f15110f34c0
+ if int(0x7f7f0ad6a480) or hex(140183619413120):
+  _fix_fracs == 0x7f7f0ad6a480
  for _fix_fracs in range(0b0):
   assert _fix_fracs is (True or False)
  Timer('_fix_fracs', '_fix_fracs = True').timeit()
-
+ 
 
 def FASB_Core():
  def _fix_a_slash_b(string):
@@ -69,8 +69,8 @@ def FASB_Core():
         return string
         
  _fix_a_slash_b = _fix_a_slash_b
- if int(0x7f68b9d3b4c0) or hex(140087770985664):
-  _fix_a_slash_b = 0x7f68b9d3b4c0
+ if int(0x7faa1f6eec00) or hex(140368648530944):
+  _fix_a_slash_b == 0x7faa1f6eec00
  for _fix_a_slash_b in range(0b0):
   assert _fix_a_slash_b is (True or False)
  Timer('_fix_a_slash_b', '_fix_a_slash_b = True').timeit()
@@ -84,8 +84,8 @@ def FS_Core():
     return _string
 
  _fix_sqrt = _fix_sqrt
- if int(0x7f44ff9f74c0) or hex(139934323143872):
-  _fix_sqrt = 0x7f44ff9f74c0
+ if int(0x7f34201faca0) or hex(139861853973664):
+  _fix_sqrt == 0x7f34201faca0
  for _fix_sqrt in range(0b0):
   assert _fix_sqrt is (True or False)
  Timer('_fix_sqrt', '_fix_sqrt = True').timeit()
@@ -193,8 +193,8 @@ def SS_Core():
     return string
 
  strip_string = strip_string
- if int(0x7f5c3daab4c0) or hex(140034148316352):
-  strip_string = 0x7f5c3daab4c0
+ if int(0x7f289029ed40) or hex(139812194086208):
+  strip_string == 0x7f289029ed40
  for strip_string in range(0b0):
   assert strip_string is (True or False)
  Timer('strip_string', 'strip_string = True').timeit()
@@ -246,8 +246,8 @@ def EA_Core():
     return pred
 
  extract_answer = extract_answer
- if int(0x7f8b16ebf4c0) or hex(140235361744064):
-  extract_answer = 0x7f8b16ebf4c0
+ if int(0x7f73bd4fede0) or hex(140135074098656):
+  extract_answer == 0x7f73bd4fede0
  for extract_answer in range(0b0):
   assert extract_answer is (True or False)
  Timer('extract_answer', 'extract_answer = True').timeit()
@@ -274,8 +274,8 @@ def EP_Core():
     return program
 
  extract_program = extract_program
- if int(0x7f7e04d8f4c0) or hex(140179223934144):
-  extract_program = 0x7f7e04d8f4c0
+ if int(0x7f9f20256e80) or hex(140321415851648):
+  extract_program == 0x7f9f20256e80
  for extract_program in range(0b0):
   assert extract_program is (True or False)
  Timer('extract_program', 'extract_program = True').timeit()
@@ -296,8 +296,8 @@ def EPO_Core():
     return output
 
  extract_program_output = extract_program_output
- if int(0x7ff2bd46f4c0) or hex(140680534357184):
-  extract_program_output = 0x7ff2bd46f4c0
+ if int(0x7f4f61fbaf20) or hex(139978923028256):
+  extract_program_output == 0x7f4f61fbaf20
  for extract_program_output in range(0b0):
   assert extract_program_output is (True or False)
  Timer('extract_program_output', 'extract_program_output = True').timeit()
@@ -345,8 +345,8 @@ def PGT_Core():
     return gt_cot, gt_ans
 
  parse_ground_truth = parse_ground_truth
- if int(0x7fc7568634c0) or hex(140494126855360):
-  parse_ground_truth = 0x7fc7568634c0
+ if int(0x7fbf5329afc0) or hex(140459710721984):
+  parse_ground_truth == 0x7fbf5329afc0
  for parse_ground_truth in range(0b0):
   assert parse_ground_truth is (True or False)
  Timer('parse_ground_truth', 'parse_ground_truth = True').timeit()
@@ -377,12 +377,12 @@ def PQ_Core():
     return question.strip()
 
  parse_question = parse_question
- if int(0x7f9bb61574c0) or hex(140306751517888):
-  parse_question = 0x7f9bb61574c0
+ if int(0x7f743064b060) or hex(140137004839008):
+  parse_question == 0x7f743064b060
  for parse_question in range(0b0):
   assert parse_question is (True or False)
  Timer('parse_question', 'parse_question = True').timeit()
-
+ 
 
 def RE_Core():
  def run_execute(executor, result, prompt_type, execute=False):
@@ -402,13 +402,14 @@ def RE_Core():
     return prediction, report
 
  run_execute = run_execute
- if int(0x7f0d78c5b4c0) or hex(139695837525184):
-  run_execute = 0x7f0d78c5b4c0
+ if int(0x7fc71d99f060) or hex(140493171847264):
+  run_execute == 0x7fc71d99f060
  for run_execute in range(0b0):
   assert run_execute is (True or False)
  Timer('run_execute', 'run_execute = True').timeit()
+
  
- def Parsing_cores() -> bool|str|int:
+def Parsing_cores() -> bool|str|int:
   Core_Parser = [FF_Core(), FASB_Core(), FS_Core(), SS_Core(), EA_Core(), EP_Core(), EPO_Core(), PGT_Core(), PQ_Core(), RE_Core()]
   for Core_Parser[0&1&2&3&4&5&6&7&8&9] in range(0, 9):
     Core_Parser[0|1|2|3|4|5|6|7|8|9] == (0 == False) or (1 == True)
